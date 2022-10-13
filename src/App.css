@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.row{
+  display: flex;
+}
+.flexAIC{
+  align-items: center;
+}
+.flexJCC{
+  justify-content: center;
+}
+.App img{
+border-radius: 3px;
+}
+.card{
+  min-width:300px ;
+  width: 20%;
+  min-height: 85vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ border-radius: 3px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.header{
+width: 100%;
+}
+.card input,.inp{
+    border: none;
+    border-bottom: 2px solid blue;
+    font-size: 18px;
+    margin: 6px;
+    height: 30px;
+    width: 80%;
+}
+.inp{
+  border: none;
+}
+.checkbox{
+  border-radius: 50%;
+  width: 6% !important;
+  min-width: 0px;
+  min-height: 0px;
+}
+label{
+  color: rgb(41, 194, 255);
+}
+label span{
+  color: blue;
+}
+label span,p,label{
+font-size: .8rem;
+}
+p{
+  color: #4c00ff;
+}
+.signup{
+  background-color: #4c00ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 2% 8%;
+    font-size: 18px;
+}
+input:focus{
+  outline: none;
+}
+.box{
+  position: relative;
+}
+.btn{
+  position: absolute;
+  width: 96%;
+justify-content: flex-end;
+top:70%
+}
+.btn button{
+  margin: 1%;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #4c00ff;
+  font-weight: 600;
+}
+.btn button:nth-child(2){
+  color: rgb(41, 194, 255);
+
+}
